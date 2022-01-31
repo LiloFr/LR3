@@ -6,8 +6,8 @@ def x2():
   pass
 
 
-def x3_1():
-  pass
+def x3_1(n):
+  return collatz(n * 3 + 1)
 
 
 def collatz():
